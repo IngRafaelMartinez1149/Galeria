@@ -43,7 +43,7 @@ header nav ul li a{
 	text-decoration: none;
 }
 header nav ul li a:hover{
-	background: #037E8C;
+	background: #03758C;
 }
 header nav ul li span{
 	margin-right: 10px;
@@ -84,10 +84,10 @@ header nav ul li span{
 .modal{
 	/*opacity: 0;
 	visibility: hidden;*/
-	
+
 	position: absolute;
 	top: -100%;
-	
+
 }
 .modal:target{
 	/*
