@@ -1,0 +1,268 @@
+/*Estilos formulario*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/fondo.jpg);
+}
+header,section,footer,article{
+	display: block;
+}
+header{
+	background: #9ccc65;
+	border: 1px solid #999999;
+	box-shadow: 10px 10px 30px;
+	border-radius: 10px;
+	height: 30px auto;
+	padding: 20px;
+	width: auto;
+}
+header h1{
+	font : bold 45px arial, sans-serif;
+	text-align: center;
+}
+article{
+	display: block;
+	float: left;
+	margin: 15px 100px 5px auto;
+}
+article img{
+	height: 240px;
+	padding: 6px 25px;
+	width: 280px;
+}
+article a{
+	text-decoration: none;
+}
+article p{
+	margin: 10px;
+	font-family: cursive;
+	text-align: center;
+}
+input{
+	border-radius: 5px;
+	color: red;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	width: 30%;
+}
+#tbnir{
+	background-color: #2dc234;
+	background-image: -webkit-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+	background-image: -moz-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+	background-image: -o-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+	background-image: linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+	box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+	color: #fff;
+	font-family: ‘Pacifico’, Arial, sans-serif;
+	font-size: 15px;
+	-ms-border-radius:8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+	line-height: 1;
+	padding: 15px 25px;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
+}
+input [type=submit]{
+	border-radius: 5px;
+	font-size: cursive;
+	height: 50px;
+	margin: 5px;
+	padding: 10px;
+	width: 30px;
+}
+aside{
+	
+	background: #c5e1a5;
+	box-shadow: -10px -10px 30px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	width: 390px;
+	border-radius: 15px;
+
+}
+textarea{
+	display: block;
+	margin: auto;
+	padding: 10px;
+	width: 65%;
+	border-radius:5px;
+}
+aside label{
+	text-align: left;
+
+}
+aside input{
+	margin: auto;
+	width: 240px;
+	height: 20px;
+}
+#promo{
+	margin: 20px;
+	color: white;
+}
+#promo h1{
+	text-align: center;
+}
+
+/*
+.formulario_contacto {
+	float: right;
+	margin: 0;
+	background: red;
+	height: 400px;
+	width: 700px;
+}
+
+.formulario_contacto h2, .formulario_contacto label{
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+.formulario_contacto h2{
+	display: inline;
+	margin: 0;
+}
+.formulario_contacto ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-position: outside;
+	list-style-type: none;
+	width: 750px;
+}
+.formulario_contacto li{
+	border-bottom: 1px, solid #EEE;
+	padding: 12px;
+	position: relative;
+}
+.formulario_contacto li:first-child, .formulario_contacto li:last-child{
+	border-bottom: 1px solid #777;
+}
+.formulario_contacto label{
+	display: inline-block;
+	float: left;
+	margin-top: 3px;
+	padding: 3px;
+	width: 150px;
+}
+.formulario_contacto input{
+	height: 20px;
+	padding: 5px 8px;
+	width: 220px;
+}
+.formulario_contacto textarea{
+	padding: 8px;
+	width: 300px;
+}
+.formulario_contacto button{
+	margin-left: 156px;
+}*/
+.formulario_contacto input .formulario_contacto textarea{
+	border: 3px solid #AAA;
+	box-shadow: 0px 0px 3px #CCC, 0 10px 15px #EEE inset;
+	border-radius: 2px;
+	padding-right: 30px;
+	-moz-transition: padding .25s;
+	-webkit-transition: padding .25s;
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.formulario_contacto input:focus, .formulario_contacto textarea:focus{
+	background: #FFF;
+	border: 3px solid #555;
+	box-shadow: 0 0 3px #AAA;
+	padding-right: 70px;
+}
+.form_hint, .notificacion{
+	font-size: 11px;
+}
+.notificacion{
+	color: #D45252;
+	display: inline;
+	float: right;
+	margin: 5px 0 0 0;
+}
+.formulario_contacto input:required, .formulario_contacto textarea:required{
+	background: #FFF url(img/arterisco_rojo.png) no-repeat 98% center;
+}
+.formulario_contacto input:required:valid, .formulario_contacto textarea:required:valid{
+	background: #FFF url(img/valido.png) no-repeat 98% center;
+	border-color: #28921F;
+	box-shadow: 0 0 5px #5CD053;
+}
+.formulario_contacto input:focus:invalid, .formulario_contacto textarea:focus:invalid{
+	background: #FFF url(img/invalido.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #D45252;
+	border-color: #B03535;
+}
+.form_hint {
+	background: #D45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	display: none;
+	margin-left: 8px;
+	padding: 1px 6px;
+	position: absolute;
+	z-index: 999;
+}
+	.form_hint::before{
+		color: #D45252;
+		content: "\25C0";
+		left: -6px;
+		position: absolute;
+		top: 1px;
+	}
+.formulario_contacto input:focus + .form_hint{
+	display: inline;
+}
+.formulario_contacto input:required:valid + .form_hint{
+	background: #28921F;
+}
+	.formulario_contacto input:required:valid + .form_hint::before{
+		color: #28921F;
+	}
+	
+button.submit{
+	background-color: #68b12f; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e)); 
+	background: -webkit-linear-gradient(top, #68b12f, #50911e); background: -moz-linear-gradient(top, #68b12f, #50911e); 
+	background: -ms-linear-gradient(top, #68b12f, #50911e); background: -o-linear-gradient(top, #68b12f, #50911e); 
+	background: linear-gradient(top, #68b12f, #50911e); 
+	border: 1px solid #509111; 
+	border-bottom: 1px solid #5b992b; 
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-ms-border-radius: 3px; 
+	-o-border-radius: 3px; 
+	box-shadow: inset 0 1px 0 0 #9fd574; 
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset; 
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset; 
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset; 
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset; 
+	color: white; 
+	font-weight: bold;
+	float: right;
+	width: 150px; 
+	margin: 20px;
+	padding: 6px 20px; 
+	text-align: center; 
+	text-shadow: 0 -1px 0 #396715; 
+} 
+	button.submit:hover{
+		opacity: .85; 
+		cursor: pointer; 
+	} 
+	button.submit:active{ 
+		border: 1px solid #20911e; 
+		box-shadow: 0 0 10px 5px #356b0b inset; 
+		-webkit-box-shadow: 0 0 10px 5px #356b0b inset; 
+		-moz-box-shadow: 0 0 10px 5px #356b0b inset; 
+		-ms-box-shadow: 0 0 10px 5px #356b0b inset; 
+		-o-box-shadow: 0 0 10px 5px #356b0b inset; 
+}
