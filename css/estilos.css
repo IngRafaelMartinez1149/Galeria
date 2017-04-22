@@ -16,7 +16,7 @@ body{
 	line-height:20px;
 }
 h1{
-	color: #FFF;
+	color: red;
 	padding: 10px;
 	text-align: center;
 }
@@ -37,13 +37,13 @@ header nav ul li{
 	float: left;
 }
 header nav ul li a{
-	color: #FFF;
+	color: #FFF000;
 	display: block;
 	padding: 20px;
 	text-decoration: none;
 }
 header nav ul li a:hover{
-	background: #03758C;
+	background: #CF4;
 }
 header nav ul li span{
 	margin-right: 10px;
