@@ -61,6 +61,12 @@ header nav ul li span{
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 }
+
+.bienvenido{
+	background-color: #1c1c1d;
+    color: white;
+    padding: 20px;
+}
 .menu_bar{
 	display: none;
 }
