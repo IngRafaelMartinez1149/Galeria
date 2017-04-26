@@ -67,6 +67,11 @@ header nav ul li span{
     color: white;
     padding: 20px;
 }
+.info{
+	background-color: red;
+	color: black
+	padding: 20px;
+}
 .menu_bar{
 	display: none;
 }
